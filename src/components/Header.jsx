@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <header className="p-8  bg-violet-500 text-white">
+    <header className="p-4  bg-white  text-black ">
       <nav className="flex flex-col md:flex-row md:items-center md:justify-between">
-        <h1 className="text-3xl font-bold underline mb-4 md:mb-0">
+        <h1 className="text-3xl font-bold underline md:mb-0">
           My Portfolio!
         </h1>
 
@@ -25,4 +25,5 @@ function Header() {
   );
 }
 
-export default Header;
+
+export {Header};
