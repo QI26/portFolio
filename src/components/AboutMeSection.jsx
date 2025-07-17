@@ -9,24 +9,22 @@ function AboutMeSection() {
       </div>
 
       <div className="md:w-full pl-5 pt-0">
-          <p className="text-lg text-white text-justify">
-            <span className="font-bold text-2xl">Welcome to my portfolio! </span>
-            <br></br>I am{" "}
-            <span className="text-violet-500 font-bold italic">
-              Syed Qadr Islam
-            </span>
-            , an aspiring software engineer with a passion for developing
-            impactful software solutions. With hands-on experience in building
-            web applications, backend systems, and desktop applications, I
-            specialize in writing clean, maintainable code and collaborating
-            effectively within teams. My academic journey at COMSATS University
-            Islamabad has equipped me with a strong foundation in modern
-            development practices and tools. From creating e-commerce platforms
-            to SaaS products and real-time social marketplaces, I am eager to
-            contribute to innovative projects and continuously learn new
-            technologies. Explore my work and skills as I strive to make a
-            meaningful impact in the world of software engineering.
-          </p>
+        <p className="text-lg text-white text-justify">
+          <span className="font-bold text-2xl">Welcome to my portfolio! </span>
+          <br></br>I am{" "}
+          <span className=" font-bold italic">Syed Qadr Islam</span>, an
+          aspiring software engineer with a passion for developing impactful
+          software solutions. With hands-on experience in building web
+          applications, backend systems, and desktop applications, I specialize
+          in writing clean, maintainable code and collaborating effectively
+          within teams. My academic journey at COMSATS University Islamabad has
+          equipped me with a strong foundation in modern development practices
+          and tools. From creating e-commerce platforms to SaaS products and
+          real-time social marketplaces, I am eager to contribute to innovative
+          projects and continuously learn new technologies. Explore my work and
+          skills as I strive to make a meaningful impact in the world of
+          software engineering.
+        </p>
         <p className="text-lg">
           Explore my projects and learn more about my journey in coding.
         </p>
@@ -58,7 +56,11 @@ function AboutMeSection() {
               <p className="pl-4">Git</p>
             </li>
             <li className="flex items-center">
-              <img src="/postmanLogo.jpeg" alt="postmann Logo" className="w-10 h-10" />
+              <img
+                src="/postmanLogo.jpeg"
+                alt="postmann Logo"
+                className="w-10 h-10"
+              />
               <p className="pl-4">Postman</p>
             </li>
           </ul>
